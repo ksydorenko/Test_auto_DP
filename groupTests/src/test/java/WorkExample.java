@@ -14,6 +14,7 @@ import java.time.Duration;
 
 public class WorkExample {
     WebDriver driver;
+    private String baseurl = "https://nmu.org.ua/ua/";
 
     @BeforeClass
     void setup() {
@@ -25,19 +26,23 @@ public class WorkExample {
         chromeOptions.setImplicitWaitTimeout(Duration.ofSeconds(15));
         // Create the driver object
         driver = new ChromeDriver(chromeOptions);
-        driver.get("https://nmu.org.ua/ua/");
+        driver.get(baseurl);
     }
 
     @Test
-    public void testGoogleSearch() {
-        WebElement header = driver.findElement(By.id("header"));
+    public void testHeaderExists() {
+        WebElement header = driver.findElement(By.id("heder"));
         Assert.assertNotNull(header);
-//        //Thread.sleep(5000);  // Let the user actually see something!
-//        WebElement searchBox = driver.findElement(By.name("q"));
-//        Assert.assertTrue(searchBox.isDisplayed(), "searchbox is displayed");
-//        searchBox.sendKeys("ChromeDriver");
-//        searchBox.submit();
-//        //Thread.sleep(5000);  // Let the user actually see something!
+    }
+
+    @Test
+    public void testClickOnForStudent() {
+        WebElement forStudentButton = driver.findElement(By.xpath(
+                "/html/body/center/div[4]/div/div[1]/ul/li[4]/a"
+        ));
+        Assert.assertNotNull(forStudentButton);
+        forStudentButton.click();
+        Assert.assertNotEquals(driver.getCurrentUrl(), baseurl);
     }
 
     @AfterClass
