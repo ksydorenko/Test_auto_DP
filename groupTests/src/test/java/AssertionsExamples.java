@@ -25,12 +25,18 @@ public class AssertionsExamples {
 
     @Test
     public void testGoogleSearch() {
-        //Thread.sleep(5000);  // Let the user actually see something!
         WebElement searchBox = driver.findElement(By.name("q"));
         Assert.assertTrue(searchBox.isDisplayed(), "searchbox is displayed");
         searchBox.sendKeys("ChromeDriver");
         searchBox.submit();
-        //Thread.sleep(5000);  // Let the user actually see something!
+        WebElement firstResult = driver.findElement(By.tagName("h3"));
+        firstResult.click();
+        Assert.assertTrue(driver.getTitle().contains("ChromeDriver - WebDriver for Chrome"));
+//        try {
+//            Thread.sleep(1000);
+//        } catch(InterruptedException ie) {
+//            System.out.println(ie);
+//        }
     }
 
     @AfterClass
