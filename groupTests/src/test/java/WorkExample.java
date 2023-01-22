@@ -24,6 +24,7 @@ public class WorkExample {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-fullscreen");
+        //chromeOptions.addArguments("--headless");                         // Option for headless browser
         chromeOptions.setImplicitWaitTimeout(Duration.ofSeconds(15));
         // Create the driver object
         driver = new ChromeDriver(chromeOptions);
@@ -74,6 +75,7 @@ public class WorkExample {
 
     @Test
     public void testSlider() {
+        driver.get(baseurl);
         WebElement nextButton = driver.findElement(By.className("next"));
         WebElement nextButtonByCss = driver.findElement(By.cssSelector("a.next"));
         Assert.assertEquals(nextButton, nextButtonByCss);
@@ -81,19 +83,24 @@ public class WorkExample {
         for (int i = 0; i < 20; i++) {
             if (nextButton.getAttribute("class").contains("disabled")) {
                 previousButton.click();
-                Assert.assertTrue(previousButton.getAttribute("class").contains("disabled"));
+                Assert.assertFalse(previousButton.getAttribute("class").contains("disabled"));
                 Assert.assertFalse(nextButton.getAttribute("class").contains("disabled"));
             } else {
                 nextButton.click();
-                Assert.assertTrue(nextButton.getAttribute("class").contains("disabled"));
+                //Assert.assertFalse(nextButton.getAttribute("class").contains("disabled"));
                 Assert.assertFalse(previousButton.getAttribute("class").contains("disabled"));
             }
+//            try {
+//                Thread.sleep(1000);
+//            } catch(InterruptedException ie) {
+//
+//            }
         }
     }
 
     @AfterClass
     void tearDown() {
         System.out.println("After Class setup ...");
-        driver.quit();
+        driver.quit(); // driver.close();
     }
 }

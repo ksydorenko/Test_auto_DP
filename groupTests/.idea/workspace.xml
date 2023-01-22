@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="lab example incompleted">
+    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="lab example completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WorkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WorkExample.java" afterDir="false" />
     </list>
@@ -52,14 +52,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.WorkExample.testSlider">
-    <configuration name="AssertionsExamples" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WorkExample">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="groupTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WorkExample.testSlider" />
-        <item itemvalue="TestNG.WorkExample.testSearchFileOnForStudentPage" />
         <item itemvalue="TestNG.WorkExample" />
+        <item itemvalue="TestNG.WorkExample.testSlider" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.WorkExample.testSearchFileOnForStudentPage" />
         <item itemvalue="TestNG./Users/nick/programming/Test_auto_DP/groupTests/testng.xml" />
-        <item itemvalue="TestNG.AssertionsExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674295152530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lab example completed">
+      <created>1674307388066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674307388066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +176,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="lab example" />
     <MESSAGE value="lab example incompleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab example incompleted" />
+    <MESSAGE value="lab example completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab example completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
