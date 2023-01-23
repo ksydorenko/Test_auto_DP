@@ -36,9 +36,11 @@ public class Test_Shop_Dressa {
         Assert.assertTrue(searchField.isDisplayed(), "searchbox is displayed");
         searchField.sendKeys("Плаття");
         searchField.sendKeys(Keys.ENTER);
+        // знаходження елемента за його класом
         WebElement productLink = driver.findElement(By.className("product__link"));
         productLink.click();
         WebElement descriptionTitle = driver.findElement(By.className("info__title_text"));
+        // перевірка наявності заголовку товару
         Assert.assertNotNull(descriptionTitle);
     }
 
