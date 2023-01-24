@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="think about next test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Transfermarkt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.WorkExample">
+  <component name="RunManager" selected="TestNG.Test_Transfermarkt">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="groupTests" />
@@ -66,18 +67,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertionsExamples.testGoogleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="groupTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
-      <option name="METHOD_NAME" value="testGoogleSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,6 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_Transfermarkt" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="groupTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_Transfermarkt" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="groupTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_Transfermarkt" />
         <item itemvalue="TestNG.WorkExample" />
         <item itemvalue="TestNG.Test_Shop_Dressa" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.Test_Shop_Dressa.testDressaSearch" />
-        <item itemvalue="TestNG.AssertionsExamples.testGoogleSearch" />
       </list>
     </recent_temporary>
   </component>
