@@ -11,37 +11,42 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.time.Duration;
+import java.util.List;
 
-public class Test_Shop_Dressa {
+public class Test_Transfermarkt {
     WebDriver driver;
+    private String baseurl = "https://www.transfermarkt.world/";
 
     @BeforeClass
     void setup() {
         System.out.println("Before Class setup ...");
-        // Set up the wWebDriverManager for chrome driver
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-fullscreen");
         chromeOptions.setImplicitWaitTimeout(Duration.ofSeconds(15));
-        // Create the driver object
         driver = new ChromeDriver(chromeOptions);
-        driver.get("https://dressa.com.ua/");
+        driver.get(baseurl);
     }
 
     @Test
-    public void testDressaSearch() {
-        // знайти пошукову строку
-        WebElement searchField = driver.findElement(By.id("search__field_input"));
-        // перевірка що пошукова строка відображається
+    public void testHeaderExists() {
+        WebElement header = driver.findElement(By.tagName("header"));
+        Assert.assertNotNull(header);
+    }
+    @Test
+    public void testFooterExists() {
+        WebElement header = driver.findElement(By.tagName("footer"));
+        Assert.assertNotNull(header);
+    }
+    @Test
+    public void testClubSearch() {
+        WebElement searchField = driver.findElement(By.className("tm-header__input--search-field"));
         Assert.assertTrue(searchField.isDisplayed(), "searchbox is displayed");
-        searchField.sendKeys("Плаття");
+        searchField.sendKeys("dnipro");
         searchField.sendKeys(Keys.ENTER);
-        // знаходження елемента за його класом
-        WebElement productLink = driver.findElement(By.className("product__link"));
-        productLink.click();
-        WebElement descriptionTitle = driver.findElement(By.className("info__title_text"));
-        // перевірка наявності заголовку товару
-        Assert.assertNotNull(descriptionTitle);
+        WebElement tableItems = driver.findElement(By.className("items"));
+        List<WebElement> trs = tableItems.findElements(By.tagName("tr"));
+        Assert.assertTrue(trs.size() > 0, "teams are displayed");
     }
 
     @AfterClass
