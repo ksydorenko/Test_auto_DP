@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="dressa test completed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab3/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test_Transfermarkt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test_Transfermarkt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WorkExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WorkExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WorkExample.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -59,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.WorkExample">
+  <component name="RunManager" selected="TestNG.UserTest.verifyLoginAction">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="groupTests" />
@@ -84,23 +88,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Shop_Dressa.testDressaSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Transfermarkt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="groupTests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_Shop_Dressa" />
-      <option name="METHOD_NAME" value="testDressaSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="Test_Transfermarkt" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Transfermarkt" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.verifyLoginAction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="groupTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_Transfermarkt" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.UserTest" />
+      <option name="METHOD_NAME" value="verifyLoginAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserTest.verifyLoginAction" />
         <item itemvalue="TestNG.WorkExample" />
         <item itemvalue="TestNG.Test_Transfermarkt" />
         <item itemvalue="TestNG.Test_Shop_Dressa" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.Test_Shop_Dressa.testDressaSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674489970312</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dressa test completed">
+      <created>1677695291006</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677695291006</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +211,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="nick_branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -208,7 +237,8 @@
     <MESSAGE value="lab example refactoring" />
     <MESSAGE value="lab example refactoring completed" />
     <MESSAGE value="think about next test" />
-    <option name="LAST_COMMIT_MESSAGE" value="think about next test" />
+    <MESSAGE value="dressa test completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="dressa test completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
