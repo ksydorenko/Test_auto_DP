@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="dressa test completed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lab3/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WorkExample.class" beforeDir="false" />
-    </list>
+    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="lab3 example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677695291006</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lab3 example">
+      <created>1677697197312</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677697197312</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +241,8 @@
     <MESSAGE value="lab example refactoring completed" />
     <MESSAGE value="think about next test" />
     <MESSAGE value="dressa test completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="dressa test completed" />
+    <MESSAGE value="lab3 example" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3 example" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
