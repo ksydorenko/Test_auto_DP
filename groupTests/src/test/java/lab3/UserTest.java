@@ -8,13 +8,11 @@ import io.restassured.http.ContentType;
 import io.restassured.parsing.Parser;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
-
+import static org.hamcrest.Matchers.equalTo;
 import org.apache.http.HttpStatus;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import java.time.Duration;
 import java.util.Map;
 
 
@@ -67,6 +65,31 @@ public class UserTest {
         );
         given().body(body)
                 .post(USER)
+                .then()
+                .statusCode(HttpStatus.SC_OK);
+    }
+
+    @Test(dependsOnMethods = "verifyCreateAction")
+    public void verifyGetAction() {
+        given().pathParam("username", username)
+                .get(USER_USERNAME)
+                .then()
+                .statusCode(HttpStatus.SC_OK)
+                .and()
+                .body("firstName", equalTo(firstName));
+    }
+
+    @Test(dependsOnMethods = "verifyGetAction")
+    public void verifyDeleteAction() {
+        given().pathParam("username", username)
+                .delete(USER_USERNAME)
+                .then()
+                .statusCode(HttpStatus.SC_OK);
+    }
+
+    @Test(dependsOnMethods = "verifyLoginAction", priority = 1)
+    public void verifyLogoutAction() {
+        given().get(USER_LOGOUT)
                 .then()
                 .statusCode(HttpStatus.SC_OK);
     }
