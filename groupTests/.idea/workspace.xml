@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="lab3 example" />
+    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="lab3 example">
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab3/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/UserTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,20 +61,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.UserTest.verifyLoginAction">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="groupTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UserTest.verifyCreateAction">
     <configuration name="Test_Shop_Dressa" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="groupTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,6 +78,24 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test_Transfermarkt" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.verifyCreateAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="groupTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.UserTest" />
+      <option name="METHOD_NAME" value="verifyCreateAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserTest.verifyCreateAction" />
         <item itemvalue="TestNG.UserTest.verifyLoginAction" />
         <item itemvalue="TestNG.WorkExample" />
         <item itemvalue="TestNG.Test_Transfermarkt" />
         <item itemvalue="TestNG.Test_Shop_Dressa" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

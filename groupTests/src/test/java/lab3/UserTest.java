@@ -1,5 +1,6 @@
 package lab3;
 
+import com.github.javafaker.Faker;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -49,6 +50,25 @@ public class UserTest {
                         .get("message")
                         .toString()
                         .replaceAll("[^0-9]", ""));
+    }
+
+    @Test(dependsOnMethods = "verifyLoginAction")
+    public void verifyCreateAction() {
+        username = Faker.instance().name().username();
+        firstName = Faker.instance().harryPotter().character();
+        Map<String, ?> body = Map.of(
+                "username", username,
+                "firstName", firstName,
+                "lastName", Faker.instance().gameOfThrones().character(),
+                "email", Faker.instance().internet().emailAddress(),
+                "password", Faker.instance().internet().password(),
+                "phone", Faker.instance().phoneNumber().phoneNumber(),
+                "userStatus", Integer.valueOf("1")
+        );
+        given().body(body)
+                .post(USER)
+                .then()
+                .statusCode(HttpStatus.SC_OK);
     }
 
     @AfterClass
