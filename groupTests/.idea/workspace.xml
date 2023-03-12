@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="lab3 example">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab3/PetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab3/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lab3/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lab3/UserTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,78 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.UserTest">
+  <component name="RunManager" selected="TestNG.PetTest">
+    <configuration name="PetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="groupTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTest.verifyDeletePetAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="groupTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+      <option name="METHOD_NAME" value="verifyDeletePetAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTest.verifyGetAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="groupTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+      <option name="METHOD_NAME" value="verifyGetAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetTest.verifyUpdatePetAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="groupTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+      <option name="METHOD_NAME" value="verifyUpdatePetAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="groupTests" />
       <extension name="coverage">
@@ -81,78 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.verifyCreateAction" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="groupTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab3" />
-      <option name="MAIN_CLASS_NAME" value="lab3.UserTest" />
-      <option name="METHOD_NAME" value="verifyCreateAction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.verifyGetAction" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="groupTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab3" />
-      <option name="MAIN_CLASS_NAME" value="lab3.UserTest" />
-      <option name="METHOD_NAME" value="verifyGetAction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.verifyLoginAction" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="groupTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab3" />
-      <option name="MAIN_CLASS_NAME" value="lab3.UserTest" />
-      <option name="METHOD_NAME" value="verifyLoginAction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="groupTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WorkExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PetTest" />
         <item itemvalue="TestNG.UserTest" />
-        <item itemvalue="TestNG.UserTest.verifyGetAction" />
-        <item itemvalue="TestNG.UserTest.verifyCreateAction" />
-        <item itemvalue="TestNG.UserTest.verifyLoginAction" />
-        <item itemvalue="TestNG.WorkExample" />
+        <item itemvalue="TestNG.PetTest.verifyDeletePetAction" />
+        <item itemvalue="TestNG.PetTest.verifyUpdatePetAction" />
+        <item itemvalue="TestNG.PetTest.verifyGetAction" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678129377475</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lab3 example">
+      <created>1678138056709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678138056709</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
