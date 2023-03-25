@@ -18,15 +18,19 @@ public class StoreTest4 {
 
     @Test
     public void testGetInventory() {
-
         given()
                 .when()
                 .get("/store/inventory")
                 .then()
                 .statusCode(200)
                 .body("$", not(empty()))
-                .body("pets", notNullValue())
-                .body("pets", hasKey("available"))
-                .body("pets", hasKey("pending"));
+                .body("sold", notNullValue())
+                .body("$", hasKey("available"))
+                .body("$", hasKey("pending"))
+                .body("$", hasKey("{{PetStatus-Updated}}"))
+                .body("string", notNullValue())
+                .body("unavailable", notNullValue())
+                .body("pending", notNullValue())
+                .body("available", notNullValue());
     }
 }
