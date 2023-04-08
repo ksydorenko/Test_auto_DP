@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="Test_Shop_Dressa &#10;Внесено правки до тесту testDressaSearch для того, щоб тест мав: клік по елементу; введення даних у поле та перевірка поля на наявність даних; знаходження елементу за допомогою не прямого XPath (використовуючи функції або унікальні ідентифікатори); перевірку будь-якої умови.">
+    <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="api swagger">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SimpleRestServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab3_ATBD/StoreTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3_ATBD/StoreTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,33 +70,29 @@
       <recent name="lab3_ATBD" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StoreTest4.testGetInventory">
-    <configuration name="StoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SimpleRestServer">
+    <configuration name="MockServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MockServer" />
       <module name="groupTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab3_ATBD.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab3_ATBD" />
-      <option name="MAIN_CLASS_NAME" value="lab3_ATBD.StoreTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SimpleRestServer" />
       <module name="groupTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab3_ATBD.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab3_ATBD" />
-      <option name="MAIN_CLASS_NAME" value="lab3_ATBD.StoreTest2" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleRestServer" />
+        <item itemvalue="Application.MockServer" />
         <item itemvalue="JUnit.StoreTest4.testGetInventory" />
         <item itemvalue="JUnit.StoreTest4" />
         <item itemvalue="JUnit.StoreTest3" />
-        <item itemvalue="JUnit.StoreTest2" />
-        <item itemvalue="JUnit.StoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678138056709</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="api swagger">
+      <created>1679748021340</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679748021340</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +282,8 @@
     <MESSAGE value="think about next test" />
     <MESSAGE value="dressa test completed" />
     <MESSAGE value="lab3 example" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3 example" />
+    <MESSAGE value="api swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="api swagger" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
