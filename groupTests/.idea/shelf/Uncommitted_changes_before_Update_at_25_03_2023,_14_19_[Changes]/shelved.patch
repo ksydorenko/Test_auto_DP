@@ -1,0 +1,128 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ae20dc10-6dcf-4be5-bf60-272b05f8fa53\" name=\"Changes\" comment=\"lab3 example\">\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/lab3/PetTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$/..\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"useMavenConfig\" value=\"true\" />\n      </MavenGeneralSettings>\n    </option>\n    <option name=\"importingSettings\">\n      <MavenImportingSettings>\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\n      </MavenImportingSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"2KYD7KDDaSdNusMadJOihQQexmU\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"TestNG.PetTest\">\n    <configuration name=\"PetTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"groupTests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"lab3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"lab3\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"lab3.PetTest\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PetTest.verifyDeletePetAction\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"groupTests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"lab3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"lab3\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"lab3.PetTest\" />\n      <option name=\"METHOD_NAME\" value=\"verifyDeletePetAction\" />\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PetTest.verifyGetAction\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"groupTests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"lab3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"lab3\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"lab3.PetTest\" />\n      <option name=\"METHOD_NAME\" value=\"verifyGetAction\" />\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PetTest.verifyUpdatePetAction\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"groupTests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"lab3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"lab3\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"lab3.PetTest\" />\n      <option name=\"METHOD_NAME\" value=\"verifyUpdatePetAction\" />\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"groupTests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"lab3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"lab3\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"lab3.UserTest\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"TestNG.PetTest\" />\n        <item itemvalue=\"TestNG.UserTest\" />\n        <item itemvalue=\"TestNG.PetTest.verifyDeletePetAction\" />\n        <item itemvalue=\"TestNG.PetTest.verifyUpdatePetAction\" />\n        <item itemvalue=\"TestNG.PetTest.verifyGetAction\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ae20dc10-6dcf-4be5-bf60-272b05f8fa53\" name=\"Changes\" comment=\"\" />\n      <created>1674142455925</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1674142455925</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"initial commit\">\n      <created>1674144280288</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674144280288</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"lab example\">\n      <created>1674294146625</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674294146625</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"lab example incompleted\">\n      <created>1674295152530</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674295152530</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"lab example completed\">\n      <created>1674307388066</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674307388066</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"lab example refactoring\">\n      <created>1674402430803</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674402430803</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"lab example refactoring completed\">\n      <created>1674403169997</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674403169997</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"think about next test\">\n      <created>1674489970312</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1674489970312</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"dressa test completed\">\n      <created>1677695291006</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1677695291006</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"lab3 example\">\n      <created>1677697197312</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1677697197312</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"lab3 example\">\n      <created>1678129377475</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1678129377475</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"lab3 example\">\n      <created>1678138056709</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1678138056709</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"12\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"nick_branch\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"initial commit\" />\n    <MESSAGE value=\"lab example\" />\n    <MESSAGE value=\"lab example incompleted\" />\n    <MESSAGE value=\"lab example completed\" />\n    <MESSAGE value=\"lab example refactoring\" />\n    <MESSAGE value=\"lab example refactoring completed\" />\n    <MESSAGE value=\"think about next test\" />\n    <MESSAGE value=\"dressa test completed\" />\n    <MESSAGE value=\"lab3 example\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"lab3 example\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,7 +5,6 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="ae20dc10-6dcf-4be5-bf60-272b05f8fa53" name="Changes" comment="lab3 example">
+-      <change afterPath="$PROJECT_DIR$/src/test/java/lab3/PetTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -63,24 +62,19 @@
+   }
+ }</component>
+   <component name="RunManager" selected="TestNG.PetTest">
+-    <configuration name="PetTest" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="AssertionsExamples.testGoogleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="groupTests" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="lab3.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="lab3" />
+-      <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
++      <option name="METHOD_NAME" value="testGoogleSearch" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PetTest.verifyDeletePetAction" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="PetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="groupTests" />
+       <extension name="coverage">
+         <pattern>
+@@ -90,15 +84,14 @@
+       </extension>
+       <option name="PACKAGE_NAME" value="lab3" />
+       <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+-      <option name="METHOD_NAME" value="verifyDeletePetAction" />
+-      <option name="TEST_OBJECT" value="METHOD" />
++      <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PetTest.verifyGetAction" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="PetTest.verifyCreatePetAction" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="groupTests" />
+       <extension name="coverage">
+         <pattern>
+@@ -108,7 +101,7 @@
+       </extension>
+       <option name="PACKAGE_NAME" value="lab3" />
+       <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+-      <option name="METHOD_NAME" value="verifyGetAction" />
++      <option name="METHOD_NAME" value="verifyCreatePetAction" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -116,17 +109,11 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PetTest.verifyUpdatePetAction" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="Test_Shop_Dressa.testDressaSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="groupTests" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="lab3.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="lab3" />
+-      <option name="MAIN_CLASS_NAME" value="lab3.PetTest" />
+-      <option name="METHOD_NAME" value="verifyUpdatePetAction" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="Test_Shop_Dressa" />
++      <option name="METHOD_NAME" value="testDressaSearch" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -154,10 +141,10 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="TestNG.PetTest" />
++        <item itemvalue="TestNG.Test_Shop_Dressa.testDressaSearch" />
++        <item itemvalue="TestNG.PetTest.verifyCreatePetAction" />
+         <item itemvalue="TestNG.UserTest" />
+-        <item itemvalue="TestNG.PetTest.verifyDeletePetAction" />
+-        <item itemvalue="TestNG.PetTest.verifyUpdatePetAction" />
+-        <item itemvalue="TestNG.PetTest.verifyGetAction" />
++        <item itemvalue="TestNG.AssertionsExamples.testGoogleSearch" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -247,7 +234,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1678138056709</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <task id="LOCAL-00012" summary="lab3 example">
++      <created>1678646141695</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1678646141695</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
